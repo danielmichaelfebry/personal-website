@@ -1,3 +1,7 @@
+
+/* #A9AF7E
+#E6E5A3 */
+
 body, html{
     height: 100%;
     width: 100%;
@@ -10,21 +14,31 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5rem;
     margin: 50px auto 0;
+    color: #557153;
+    line-height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    color: #557153;
+    font-weight: normal;
 }
 
 h3 {
+    color: #557153;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    color: #A9AF7E;
     font-family: 'Montserrat', sans-serif;
 }
 
 #header {
     padding-top: 100px;
     position: relative;
-    background-color: #1C3879;
+    background-color: #7D8F69;
     width: 100vw;
     height: 100%;
     min-height: 100%;
@@ -39,14 +53,17 @@ h3 {
 
 .left-cloud {
     position: absolute;
-    left: 300px;
-    bottom: 600px;
+    left: 10%;
+    top: 25%;
+    transform: rotate(-25deg);
 }
 
 .right-cloud {
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 10%;
+    top: 25%;
+    transform: rotate(25deg);
+
 }
 
 .mountain {
